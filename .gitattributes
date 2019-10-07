@@ -1,0 +1,5 @@
+# Filters all *.lst to compress when staging
+# See:
+# https://stackoverflow.com/a/34780618/1419485
+
+*.pptx filter=compress
