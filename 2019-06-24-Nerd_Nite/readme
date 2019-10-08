@@ -1,0 +1,9 @@
+To split/rejoin files, see https://unix.stackexchange.com/questions/24630/whats-the-best-way-to-join-files-again-after-splitting-them
+
+Split:  
+split -b 50m Voyles_24_June_2019_Nerd_Nite.pptx 
+
+Join: 
+cat x* > Voyles_24_June_2019_Nerd_Nite_rejoined.pptx 
+rm x*
+
